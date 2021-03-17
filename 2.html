@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>報名表</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+  <body>
+    <body style="background-color:rgb(244, 245, 161);">
+        <nav class="navbar navbar-expand-sm navbar-light bg-warning">
+    
+        <a class="navbar-brand" href="index.html">采蓁補習班</a>
+        <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavId">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                <li class="nav-item active">
+                    <a class="nav-link" href="1.html">首頁<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="2.html">我要報名</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">更多</a>
+                    <div class="dropdown-menu" aria-labelledby="dropdownId">
+                        <a class="dropdown-item" href="3.html">時刻表</a>
+                        <a class="dropdown-item" href="4.html">師資團隊</a>
+                    </div>
+                </li>
+            </ul>
+            
+        </div>
+    </nav>
+    <div style="margin: 30px;">
+        <form action="check.php" method="post">
+      <div class="form-group">
+        <label for="e-mail">姓名</label>
+        <input type="text" name="e-mail" id="e-mail" class="form-control" placeholder="請輸入姓名">
+      </div>
+      <br>
+      <div class="form-group">
+        <label for="生日">生日</label>
+        <input type="date" name="date" id="date" class="form-control" placeholder="請輸入生日">
+      </div>
+      <br>
+      <div class="form-group">
+        <label for="e-mail">就讀學校</label>
+        <input type="text" name="e-mail" id="e-mail" class="form-control" placeholder="請輸入就讀學校">
+      </div>
+
+      <br>
+      <div class="form-check form-check-inline">
+        <label class="form-check-label ml-2" >
+            <input class="form-check-input" type="checkbox" name="" id="" value="checkedValue"> 女生
+        </label>
+        <label class="form-check-label ml-2" >
+            <input class="form-check-input" type="checkbox" name="" id="" value="checkedValue"> 男生
+        </label>
+        </div>
+    <br>
+    <br>
+    <div class="form-group">
+        <label for="">報名年級</label>
+        <select class="form-control" name="degree" id="">
+          
+          <option value="國一">國一</option>
+          <option value="國二">國二</option>
+          <option value="國三">國三</option>
+          
+        </select>
+      </div>
+    <br>
+    <div class="form-check form-check-inline">
+        <label class="form-check-label ml-2" >
+            <input class="form-check-input" type="checkbox" name="" id="" value="checkedValue"> 國文
+        </label>
+        <label class="form-check-label ml-2" >
+            <input class="form-check-input" type="checkbox" name="" id="" value="checkedValue"> 英語
+        </label>
+        <label class="form-check-label ml-2" >
+            <input class="form-check-input" type="checkbox" name="" id="" value="checkedValue"> 數學
+        </label>
+    </div>  
+    <br>
+    <br>  
+    <div class="form-group">
+        <label for="msg">備註(其他)</label>
+        <textarea class="form-control" name="" id="" rows="3"></textarea>
+      </div>
+    <br>
+    <p class="lead">
+        <a class="btn btn-primary btn-lg" href="5.html" role="button">送出 </a>
+</p>
+      </div>
+        </form>
+    
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
